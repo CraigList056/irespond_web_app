@@ -1,0 +1,37 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [[[
+            -151.695999146,
+            59.94919968
+          ]]]
+        },
+        "properties": {
+          "icao": "00AK",
+          "name": "Lowell Field",
+          "elevation": 450,
+          "tz": "America/Anchorage"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [[[
+            -86.7703018188,
+            34.8647994995
+          ]]]
+        },
+        "properties": {
+          "icao": "00AL",
+          "name": "Epps Airpark",
+          "elevation": 820,
+          "tz": "America/Chicago"
+        }
+      }
+    ]
+  }

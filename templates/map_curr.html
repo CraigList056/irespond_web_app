@@ -1,0 +1,15 @@
+<!doctype html>  
+<html>  
+<head>  
+<title>Geolocation API: Technotip.com</title>  
+<meta charset="utf-8"/>  
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYhItDROBVfBjt3uHXNLfLf9mnT7hO_J8&sensor=true&callback=initMap"></script>  
+<script src="{{ url_for('static', filename = 'map_curr.js') }}"></script>
+</head>  
+<body>  
+<p id="map"></p>  
+<button>Stop</button>  
+</body>  
+</html> 
